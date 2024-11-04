@@ -28,11 +28,11 @@ With this app you can get information about movies and TV series, watch trailer,
 
 
  ## Getting Started
-Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy-App.git__
-Get an API key from themoviedb.org's API https://developer.themoviedb.org/docs/getting-started__
-Put your API key in config.properties file__
-Build and run the project: Use your Android Studio to bring Watchy to life__
-Explore and contribute: Dive into the codebase, share your enhancements, and provide feedback__
+Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy-App.git<br/>
+Get an API key from themoviedb.org's API https://developer.themoviedb.org/docs/getting-started<br/>
+Put your API key in config.properties file<br/>
+Build and run the project: Use your Android Studio to bring Watchy to life<br/>
+Explore and contribute: Dive into the codebase, share your enhancements, and provide feedback<br/>
 
 
 
