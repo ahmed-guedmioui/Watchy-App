@@ -6,7 +6,7 @@
 
 
  ## About the App
- Watchy is a dynamic Android app, developed by Ahmed Guedmioui and built with industry-level technologies like Jetpack Compose and clean architecture, delivering an immersive experience for movie and TV series enthusiasts. Watchy prioritizes clean code principles, secure user experience, and seamless functionality.
+ Watchy is a dynamic Android app, developed by Ahmed Guedmioui and built with industry-level technologies like Jetpack Compose, clean architecture and Dugger Hilt dependency injection, delivering an immersive experience for movie and TV series enthusiasts. Watchy prioritizes clean code principles, secure user experience, and seamless functionality.
 
 
 
@@ -16,13 +16,13 @@ With this app you can get information about movies and TV series, watch trailer,
 
 
  ## Key Features
-**- Effortless Exploration:** Search and browse the latest, most popular, and trending content with ease. Along with detailed movie and TV series data.
+**- Effortless Exploration:** Search and browse the latest, most popular, and trending content. Along with detailed movie and TV series data.
 
 **- Modern UI:** Jetpack Compose delivers a cutting-edge and interactive UI for smooth performance and navigation.
 
 **- API:** The app fetches all its data from themoviedb.org's API (https://developer.themoviedb.org/docs/getting-started).
 
-**- Solid Architecture:** Clean Architecture and MVI design pattern promotes code clarity and maintainability, while Dagger Hilt streamlines dependency management.
+**- Solid Architecture:** Clean Architecture and MVI design pattern provides code readability, maintainability and testablaity.
 
 **- Offline Availability:** Enjoy uninterrupted access to your favorites, bookmarks and cashed data, even without an internet connection.
 
@@ -30,7 +30,7 @@ With this app you can get information about movies and TV series, watch trailer,
 
 **- Secure Authentication:** Authentication with JWT tokens ensures only authorized users have access, safeguarding their information.
 
-*- *Watchy backend:** Usres authentication is handled in a secured Ktor backend. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend)
+**- Watchy backend:** Usres authentication is handled in a secured Ktor backend. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend)
 
 
 
