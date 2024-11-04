@@ -30,7 +30,7 @@ With this app you can get information about movies and TV series, watch trailer,
 
 **- Secure Authentication:** Authentication with JWT tokens ensures only authorized users have access, safeguarding their information.
 
-**- Watchy backend:** Usres authentication is handled in a secured Ktor backend. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend)
+**- Watchy backend:** Usres data is handled in a secured Ktor backend and MongoDb. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend)
 
 
 
