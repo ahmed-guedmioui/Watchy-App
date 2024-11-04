@@ -6,7 +6,7 @@
 
 
  ## About the App
- Watchy is a dynamic Android app, developed by Ahmed Guedmioui and built with industry-level technologies like Jetpack Compose, clean architecture and Dugger Hilt dependency injection, delivering an immersive experience for movie and TV series enthusiasts. Watchy prioritizes clean code principles, secure user experience, and seamless functionality.
+Watchy is a dynamic Android app, developed by Ahmed Guedmioui and built with industry-level technologies like Jetpack Compose, clean architecture and Dugger Hilt dependency injection, delivering an immersive experience for movie and TV series enthusiasts. Watchy prioritizes clean code principles, secure user experience, and seamless functionality.
 
 
 
@@ -16,35 +16,23 @@ With this app you can get information about movies and TV series, watch trailer,
 
 
  ## Key Features
-**- Effortless Exploration:** Search and browse the latest, most popular, and trending content. Along with detailed movie and TV series data.
-
-**- Modern UI:** Jetpack Compose delivers a cutting-edge and interactive UI for smooth performance and navigation.
-
-**- API:** The app fetches all its data from themoviedb.org's API (https://developer.themoviedb.org/docs/getting-started).
-
-**- Solid Architecture:** Clean Architecture and MVI design pattern provides code readability, maintainability and testablaity.
-
-**- Offline Availability:** Enjoy uninterrupted access to your favorites, bookmarks and cashed data, even without an internet connection.
-
-**- Seamless Synchronization:** Local and remote data (favorites and bookmarks) are kept in sync for consistent experience across devices.
-
-**- Secure Authentication:** Authentication with JWT tokens ensures only authorized users have access, safeguarding their information.
-
-**- Watchy backend:** Usres data is handled in a secured Ktor backend and MongoDb. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend)
+**- Effortless Exploration:** Search and browse the latest, most popular, and trending content. Along with detailed movie and TV series data.__
+**- Modern UI:** Jetpack Compose delivers a cutting-edge and interactive UI for smooth performance and navigation.__
+**- API:** The app fetches all its data from themoviedb.org's API (https://developer.themoviedb.org/docs/getting-started).__
+**- Solid Architecture:** Clean Architecture and MVI design pattern provides code readability, maintainability and testablaity.__
+**- Offline Availability:** Enjoy uninterrupted access to your favorites, bookmarks and cashed data, even without an internet connection.__
+**- Seamless Synchronization:** Local and remote data (favorites and bookmarks) are kept in sync for consistent experience across devices.__
+**- Secure Authentication:** Authentication with JWT tokens ensures only authorized users have access, safeguarding their information.__
+**- Watchy backend:** Usres data is handled in a secured Ktor backend and MongoDb. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend).__
 
 
 
  ## Getting Started
-Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy-App.git
-
-Get an API key from themoviedb.org's API https://developer.themoviedb.org/docs/getting-started
-
-
-Put your API key in config.properties file
-
-Build and run the project: Use your Android Studio to bring Watchy to life.
-
-Explore and contribute: Dive into the codebase, share your enhancements, and provide feedback.
+Clone the repository: git clone https://github.com/ahmed-guedmioui/Watchy-App.git__
+Get an API key from themoviedb.org's API https://developer.themoviedb.org/docs/getting-started__
+Put your API key in config.properties file__
+Build and run the project: Use your Android Studio to bring Watchy to life__
+Explore and contribute: Dive into the codebase, share your enhancements, and provide feedback__
 
 
 
