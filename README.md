@@ -14,12 +14,19 @@ With this app you can get information about movies and TV series, watch trailer,
  ## Key Features
 
 **Comprehensive Information:** Explore detailed movie and TV series data, including trailers, ratings, genres, and more.
+
 **Effortless Exploration:** Search and browse the latest, most popular, and trending content with ease.
+
 **Modern UI:** Jetpack Compose delivers a cutting-edge and interactive UI for smooth navigation.
+
 **API:** The app fetches all its data from themoviedb.org's API (https://developer.themoviedb.org/docs/getting-started)
-**Solid Architecture:** The MVVM design pattern promotes code clarity and maintainability, while Dagger Hilt streamlines dependency management.
+
+**Solid Architecture:** Clean Architecture and MVI design pattern promotes code clarity and maintainability, while Dagger Hilt streamlines dependency management.
+
 **Offline Availability:** Enjoy uninterrupted access to your favorites and bookmarks, even without an internet connection.
+
 **Secure Authentication:** JWT authentication ensures only authorized users have access, safeguarding your information.
+
 **Seamless Synchronization:** Local and remote data (favorites and bookmarks) are kept in sync for consistent experience across devices.
 
  ## Getting Started
