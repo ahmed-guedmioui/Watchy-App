@@ -16,14 +16,14 @@ With this app you can get information about movies and TV series, watch trailer,
 
 
  ## Key Features
-**- Effortless Exploration:** Search and browse the latest, most popular, and trending content. Along with detailed movie and TV series data.__
-**- Modern UI:** Jetpack Compose delivers a cutting-edge and interactive UI for smooth performance and navigation.__
-**- API:** The app fetches all its data from themoviedb.org's API (https://developer.themoviedb.org/docs/getting-started).__
-**- Solid Architecture:** Clean Architecture and MVI design pattern provides code readability, maintainability and testablaity.__
-**- Offline Availability:** Enjoy uninterrupted access to your favorites, bookmarks and cashed data, even without an internet connection.__
-**- Seamless Synchronization:** Local and remote data (favorites and bookmarks) are kept in sync for consistent experience across devices.__
-**- Secure Authentication:** Authentication with JWT tokens ensures only authorized users have access, safeguarding their information.__
-**- Watchy backend:** Usres data is handled in a secured Ktor backend and MongoDb. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend).__
+**- Effortless Exploration:** Search and browse the latest, most popular, and trending content. Along with detailed movie and TV series data.<br/>
+**- Modern UI:** Jetpack Compose delivers a cutting-edge and interactive UI for smooth performance and navigation.<br/>
+**- API:** The app fetches all its data from themoviedb.org's API (https://developer.themoviedb.org/docs/getting-started).<br/>
+**- Solid Architecture:** Clean Architecture and MVI design pattern provides code readability, maintainability and testablaity.<br/>
+**- Offline Availability:** Enjoy uninterrupted access to your favorites, bookmarks and cashed data, even without an internet connection.<br/>
+**- Seamless Synchronization:** Local and remote data (favorites and bookmarks) are kept in sync for consistent experience across devices.<br/>
+**- Secure Authentication:** Authentication with JWT tokens ensures only authorized users have access, safeguarding their information.<br/>
+**- Watchy backend:** Usres data is handled in a secured Ktor backend and MongoDb. (https://github.com/ahmed-guedmioui/Watchy-Ktor-Backend).<br/>
 
 
 
