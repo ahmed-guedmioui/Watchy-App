@@ -1,11 +1,4 @@
-# Watchy: Your Movie and TV Series Companion
-
-## Watchy Demo App
- - https://drive.google.com/file/d/1p32DZI7m_NCa4BT7dLd5aqL930epQ-Wk/view?usp=sharing
-
-
-
-## About the App
+# Watchy App
 - Watchy is a dynamic Android app, developed by Ahmed Guedmioui and built with industry-level technologies like Jetpack Compose, clean architecture and Dugger Hilt dependency injection, delivering an immersive experience for movie and TV series enthusiasts. Watchy prioritizes clean code principles, secure user experience, and seamless functionality.
 
 
