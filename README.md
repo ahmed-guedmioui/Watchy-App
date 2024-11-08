@@ -4,7 +4,7 @@
 
 
 ## About The App
-- With this app you can get information about movies and TV series, watch trailer, search and find the latest, most popular and trending movies and TV series. You can create your favorites and bookmarks list. As well as authentication and user data are securely managed with a Ktor backend, which safely stores all user information in MongoDB Atlas, ensuring data integrity and confidentiality. Additionally, this data is efficiently synchronized with a local Room database, ensuring seamless access and consistent user experience across the application.
+- With this app you can get information about movies and TV series, watch trailers, search and find the latest, most popular and trending movies and TV series. You can create your favorites and bookmarks list. As well as authentication and user data are securely managed with a Ktor backend, which safely stores all user information in MongoDB Atlas, ensuring data integrity and confidentiality. Additionally, this data is efficiently synchronized with a local Room database, ensuring seamless access and consistent user experience across the application.
 
 
 
