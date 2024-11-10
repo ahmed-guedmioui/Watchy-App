@@ -42,11 +42,14 @@ class FavoritesViewModel @Inject constructor(
     }
 
     private fun load() {
-        loadLikedList()
-        loadBookmarksList()
+        viewModelScope.launch {
+            loadLikedList()
+            loadBookmarksList()
+        }
+
     }
 
-    private fun loadLikedList() {
+    private suspend fun loadLikedList() {
         viewModelScope.launch {
             _favoritesState.update {
                 it.copy(
@@ -56,7 +59,7 @@ class FavoritesViewModel @Inject constructor(
         }
     }
 
-    private fun loadBookmarksList() {
+    private suspend fun loadBookmarksList() {
         viewModelScope.launch {
             _favoritesState.update {
                 it.copy(

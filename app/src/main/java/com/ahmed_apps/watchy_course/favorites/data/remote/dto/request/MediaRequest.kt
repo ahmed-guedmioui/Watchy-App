@@ -1,17 +1,8 @@
-package com.ahmed_apps.watchy_course.favorites.data.loca
+package com.ahmed_apps.watchy_course.favorites.data.remote.dto.request
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
 
-/**
- * @author Ahmed Guedmioui
- */
-@Entity
-data class FavoriteMediaEntity(
-    @PrimaryKey val mediaId: Int,
-
-    val isSynced: Boolean,
-    val isDeletedLocally: Boolean,
+data class MediaRequest(
+    val mediaId: Int,
 
     val isLiked: Boolean,
     val isBookmarked: Boolean,

@@ -4,9 +4,11 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -29,6 +31,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -37,6 +41,7 @@ import com.ahmed_apps.watchy_course.R
 import com.ahmed_apps.watchy_course.favorites.presentation.FavoritesState
 import com.ahmed_apps.watchy_course.favorites.presentation.FavoritesUiEvents
 import com.ahmed_apps.watchy_course.ui.theme.MediumRadius
+import com.ahmed_apps.watchy_course.ui.theme.font
 import com.ahmed_apps.watchy_course.ui.ui_components.AutoSwipeSection
 import com.ahmed_apps.watchy_course.util.Screen
 import kotlinx.coroutines.delay
@@ -76,8 +81,10 @@ fun FavoritesScreen(
             Text(
                 modifier = Modifier
                     .fillMaxWidth()
+                    .background( MaterialTheme.colorScheme.background)
                     .height(50.dp),
                 text = stringResource(R.string.favorites_and_bookmarks),
+                color = MaterialTheme.colorScheme.onBackground,
                 fontSize = 20.sp,
                 textAlign = TextAlign.Center
             )
@@ -87,6 +94,7 @@ fun FavoritesScreen(
         Box(
             modifier = Modifier
                 .fillMaxSize()
+                .background(MaterialTheme.colorScheme.background)
                 .pullRefresh(refreshState)
                 .padding(top = paddingValues.calculateTopPadding())
         ) {

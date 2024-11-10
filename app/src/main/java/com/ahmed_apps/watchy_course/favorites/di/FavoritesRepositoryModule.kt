@@ -1,6 +1,8 @@
 package com.ahmed_apps.watchy_course.favorites.di
 
+import com.ahmed_apps.watchy_course.favorites.data.repository.BackendFavoritesRepositoryImpl
 import com.ahmed_apps.watchy_course.favorites.data.repository.FavoritesRepositoryImpl
+import com.ahmed_apps.watchy_course.favorites.domain.repository.BackendFavoritesRepository
 import com.ahmed_apps.watchy_course.favorites.domain.repository.FavoritesRepository
 import dagger.Binds
 import dagger.Module
@@ -20,6 +22,12 @@ abstract class FavoritesRepositoryModule {
     abstract fun bindFavoritesRepository(
         favoritesRepositoryImpl: FavoritesRepositoryImpl
     ): FavoritesRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindBackendFavoritesRepository(
+       backendFavoritesRepositoryImpl: BackendFavoritesRepositoryImpl
+    ): BackendFavoritesRepository
 
 }
 

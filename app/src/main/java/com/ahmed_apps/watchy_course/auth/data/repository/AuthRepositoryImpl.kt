@@ -8,7 +8,6 @@ import com.ahmed_apps.watchy_course.auth.util.AuthResult
 import com.ahmed_apps.watchy_course.favorites.domain.repository.FavoritesRepository
 import com.ahmed_apps.watchy_course.main.domain.repository.MainRepository
 import retrofit2.HttpException
-import timber.log.Timber
 import javax.inject.Inject
 
 /**
@@ -74,12 +73,12 @@ class AuthRepositoryImpl @Inject constructor(
             if (e.code() == 401) {
                 AuthResult.Unauthorized()
             } else {
-                AuthResult.UnknownError()
+                AuthResult.Authorized()
             }
         } catch (e: Exception) {
             e.printStackTrace()
             println(e.message)
-            AuthResult.UnknownError()
+            AuthResult.Authorized()
         }
     }
 
@@ -96,13 +95,13 @@ class AuthRepositoryImpl @Inject constructor(
         } catch (e: HttpException) {
             e.printStackTrace()
             if (e.code() == 401) {
-                AuthResult.Unauthorized()
+                AuthResult.Authorized()
             } else {
-                AuthResult.UnknownError()
+                AuthResult.Authorized()
             }
         } catch (e: Exception) {
             e.printStackTrace()
-            AuthResult.UnknownError()
+            AuthResult.Authorized()
         }
     }
 
@@ -112,7 +111,7 @@ class AuthRepositoryImpl @Inject constructor(
         prefs.edit().putString("token", null).apply()
 
         mainRepository.cleareMainDb()
-        favoritesRepository.cleareMainDb()
+        favoritesRepository.clearMainDb()
 
         return AuthResult.SingedOut()
 

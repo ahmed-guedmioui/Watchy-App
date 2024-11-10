@@ -12,7 +12,7 @@ object Constants {
 
 object BackendConstants {
 
-    const val BACKEND_BASE_URL = "http://192.168.43.162:8081/"
+    const val BACKEND_BASE_URL = "http://192.168.10.162:8081/"
 
     const val REGISTER = "register"
     const val LOGIN = "login"
